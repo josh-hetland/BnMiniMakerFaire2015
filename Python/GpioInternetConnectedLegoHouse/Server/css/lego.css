@@ -1,0 +1,56 @@
+.off{
+    background: #CCC; 
+    color: #A4A4A4; 
+    border: 1px solid #A4A4A4; 
+}
+
+.on {
+    background: #82FA58;
+    color: #585858;
+}
+
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #0a5b79;
+  padding: 18px 20px 18px 20px;
+  text-decoration: none;
+  width: 160px;
+  margin: 5px;
+}
+
+.btn:active {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.Indicator{
+    padding: 22px 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80px;
+    margin: 5px;
+}
+
+.StatusContainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+section {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+    
+}
