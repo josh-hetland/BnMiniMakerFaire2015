@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Maker Faire | Internet Connected House</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/makerfaire.css" rel="stylesheet">
+    <link href="css/lego.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://makerfaire.com/wp-content/themes/makerfaire/images/favicon.ico">
+</head>
+<body>
+<header>
+    <div class="header_inner">
+        <img src="resources/flags_right.png" id="header_flags" />
+        <img src="resources/robot.png" id="header_robot" />
+        <h1>Internet Connected House</h1>
+    </div>
+</header>
+<section>
+    <div class="StatusContainer">
+        <button id="UpstairsButton" class="btn">Upstairs</button>
+        <span id="UpstairsIndicator" class="Indicator off">Unknown</span>
+    </div>
+    <div class="StatusContainer">
+        <button id="DownstairsButton" class="btn">Downstairs</button>
+        <span id="DownstairsIndicator" class="Indicator off">Unknown</span>
+    </div>
+    <div class="StatusContainer">
+        <button id="OutsideButton" class="btn">Outside</button>
+        <span id="OutsideIndicator" class="Indicator off">Unknown</span>
+    </div>
+</section>
+<footer>
+</footer>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="lib/pi-house.js"></script>
+</body>
+</html>
